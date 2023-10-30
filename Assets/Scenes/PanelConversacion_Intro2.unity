@@ -319,6 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 490583842}
   - component: {fileID: 490583841}
+  - component: {fileID: 490583843}
   m_Layer: 0
   m_Name: ManagerConversacion
   m_TagString: Untagged
@@ -355,6 +356,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &490583843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490583840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aada062411ec14717b9340dacf8051b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personajes:
+  - {fileID: 11400000, guid: a8a45401d8a0f4ec8bfa76914f26a546, type: 2}
+  - {fileID: 11400000, guid: 6b77fdd23d62a4f9c86bfec364569645, type: 2}
+  - {fileID: 11400000, guid: 446652a94019a43b1967a2a8b833a697, type: 2}
+  - {fileID: 11400000, guid: e99e259bf97e3468b8de69d04a796c2d, type: 2}
+  - {fileID: 11400000, guid: b897e82460d98484a8abf32ba11dfdd3, type: 2}
 --- !u!1 &792889443
 GameObject:
   m_ObjectHideFlags: 0

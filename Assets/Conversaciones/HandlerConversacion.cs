@@ -5,7 +5,7 @@ using UnityEngine;
 public class HandlerConversacion : MonoBehaviour
 {
     [SerializeField]
-    bool estadoPanel; //visible o no
+    public bool estadoPanel; //visible o no
 
     [SerializeField]
     GameObject panelConv;
